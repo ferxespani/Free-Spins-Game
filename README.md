@@ -9,6 +9,7 @@ A backend service for handling player spins in campaigns with concurrency safety
 1. Run **docker-compose up --build** command to run the project with redis and mssql server
 2. Run **dotnet test --filter "Category=Integration"** to run an integration test with multiple simultaneous spin requests
 3. Run **dotnet test --filter "Category=Unit"** to run unit tests
+4. Enter http://localhost:5000/swagger/index.html url to open swagger
 
 
 ## How Concurrency is Handled
