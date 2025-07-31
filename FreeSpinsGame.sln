@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeSpinsGame", "FreeSpinsGame\FreeSpinsGame.csproj", "{D1B3CDC9-915D-4183-831E-4F904BBBCE50}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8AA5C60F-0D22-4772-A77F-4F4AE4A09FD5}"
+	ProjectSection(SolutionItems) = preProject
+		compose.yaml = compose.yaml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeSpinsGame.Tests", "FreeSpinsGame.Tests\FreeSpinsGame.Tests.csproj", "{2B83C91B-7789-44F2-B0B2-C82629E2B76E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1B3CDC9-915D-4183-831E-4F904BBBCE50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1B3CDC9-915D-4183-831E-4F904BBBCE50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1B3CDC9-915D-4183-831E-4F904BBBCE50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1B3CDC9-915D-4183-831E-4F904BBBCE50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B83C91B-7789-44F2-B0B2-C82629E2B76E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B83C91B-7789-44F2-B0B2-C82629E2B76E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B83C91B-7789-44F2-B0B2-C82629E2B76E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B83C91B-7789-44F2-B0B2-C82629E2B76E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
