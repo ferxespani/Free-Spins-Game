@@ -5,6 +5,8 @@
       dockerfile: FreeSpinsGame/Dockerfile
     ports:
       - "5000:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
     depends_on:
       - sql
       - redis
